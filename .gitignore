@@ -1,0 +1,34 @@
+# Секреты и конфиги
+.env
+.env.*
+!env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+env/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# БД и логи
+*.db
+*.sqlite3
+bot.log
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Qwen cache & config
+.qwen/
+.qwen/**/

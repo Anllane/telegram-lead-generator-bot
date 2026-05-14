@@ -1,0 +1,21 @@
+# AIogram 3.x - Telegram Bot Framework
+aiogram>=3.12.0
+
+# Environment variables management
+python-dotenv>=1.0.0
+
+# Database
+# Для SQLite встроенный модуль sqlite3 (не требует установки)
+# Для Google Sheets раскомментируйте ниже:
+# gspread>=5.0.0
+# google-auth>=2.0.0
+# google-auth-oauthlib>=0.4.0
+
+# Logging (используется стандартный модуль logging)
+# Дополнительные библиотеки для логирования (опционально):
+# structlog>=22.0.0
+
+# Development dependencies (только для разработки):
+# black>=22.0.0
+# flake8>=4.0.0
+# mypy>=1.0.0
